@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 1920px;
+}
+header{
+    margin: auto;
+    display: flex;
+}
+
+img{
+    height:fit-content;
+    padding-left: 80px;
+    padding-top: 15px;
+    
+}
+.menuCabecera {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.menuCabecera li{
+    list-style-type: none;
+    font-size: 20px;
+    margin-right: 1rem;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+  
+.seccion1 {
+    background-image: url(img/banner.jpg);
+    height: 500px;
+}
+.seccion2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    margin-left: 30px;
+    padding: 20px;
+}
+.seccion2 img{
+    padding-left: 10px;
+    padding-top: 0px;
+}
+.seccion3{
+    background-color: #dddddd;
+    margin: 0;
+    padding: 20px;
+}
+.seccion4{
+    background-color: #dddddd;
+    padding: 30px;
+    text-align: right;
+    padding-right: 60px;
+}
+td, th{
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 100px;
+    
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+td{
+    color: #525252;
+}
+h2 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: bolder;
+    padding-left: 60px;
+    padding-top: 100px;
+    margin: 0px;
+    padding-bottom: 0;
+}
+h6{
+    color: white;
+    padding-left: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight:400;
+    padding-top: 0px;
+    margin-top: 0;
+}
+
+button{
+    margin-left: 60px;
+    background-color: #9BF00B;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    
+}
+.seccion1 a{
+    color: #9BF00B;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    font-weight: bolder;
+}
+.seccion4 a{
+    text-decoration: none;
+    color: #525252;
+    padding: 10px;
+    
+}
+
+
